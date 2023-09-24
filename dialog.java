@@ -6,14 +6,14 @@ public class dialog {
         Scanner scanner = new Scanner(System.in);
         String name;
         int age;
-        dialog.main(String[])
-         System.out.println(x: "Hello");
-        System.out.println(x:"What's your name?");
+        System.out.println("Hello!");
+        System.out.println("What's your name?");
+
         name = scanner.nextLine();
-        System.out.println(x:"How old are you?");
+        System.out.println("How old are you?");
         age = scanner.nextInt();
 
-         System.out.println(x:"Nice to meet you, " + name + "!");
-          System.out.println(x:"I know, you're " + age);
+        System.out.println("Nice to meet you," + name + "!");
+        System.out.println("I know, you're " + age);
     }
 }
